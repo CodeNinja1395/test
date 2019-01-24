@@ -1,0 +1,27 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/hapi": "^18.0.0",
+    "@types/hapi-auth-jwt2": "^8.0.2",
+    "bcrypt": "^3.0.3",
+    "boom": "^7.3.0",
+    "hapi": "^18.0.0",
+    "hapi-auth-jwt2": "^8.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.6",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/mongodb": "^3.1.19",
+    "@types/mongoose": "^5.3.9"
+  }
+}
